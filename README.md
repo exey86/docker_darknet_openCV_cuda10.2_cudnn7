@@ -17,8 +17,9 @@ How to use
 
 		docker run -it --gpus all --net host -e DISPLAY=$DISPLAY -v $HOME/.Xauthority:/root/.Xauthority imageName
 
-3) Now you are able to use Yolo v4, for example:
+3) Now you are able to use YOLOv4, for example:
 
 
 		./darknet detector test ./cfg/coco.data ./cfg/yolov4.cfg ./yolov4.weights data/dog.jpg
-	
+		
+For more information about YOLOv4, please take a look at: https://github.com/AlexeyAB/darknet
