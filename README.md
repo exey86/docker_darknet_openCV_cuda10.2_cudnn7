@@ -3,12 +3,12 @@ YOLOv4 on Ubuntu 18.04 with OpenCV, CUDA 10.2 and cuDNN 7
 
 This file will pull from dockerhub an image with Ubuntu 18.04 + CUDA 10.2 + cuDNN 7, will compile OpenCV and YOLOv4.
 
-Requirements
+## **Requirements**
 * Linux
 * Nvidia drivers installed
 * Nvidia Container Toolkit (https://github.com/NVIDIA/nvidia-docker)
 
-How to use
+## **How to use**
 1) First, download the dockerfile and build the image (it will take a while, take a coffee :)):
 
 		docker build -t imageName .
