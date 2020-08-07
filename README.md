@@ -12,7 +12,7 @@ This file will pull from dockerhub an image with Ubuntu 18.04 + CUDA 10.2 + cuDN
 1) First, download the dockerfile and build the image (it will take a while, take a coffee :)):
 
 		docker build -t imageName .
-2) Second, run the image with these flags that allow the results promp out in the host machine:
+2) Second, run the image with these flags that allow the results promp out to the host machine:
 
 
 		docker run -it --gpus all --net host -e DISPLAY=$DISPLAY -v $HOME/.Xauthority:/root/.Xauthority imageName
