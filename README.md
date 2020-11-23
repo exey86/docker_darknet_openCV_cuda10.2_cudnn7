@@ -1,7 +1,7 @@
 # docker_darknet_openCV_cuda10.2_cudnn7
 YOLOv4 on Ubuntu 18.04 with OpenCV, CUDA 10.2 and cuDNN 7
 
-This file will pull from dockerhub an image with Ubuntu 18.04 + CUDA 10.2 + cuDNN 7, will compile OpenCV and YOLOv4.
+This file will pull an image with Ubuntu 18.04 + CUDA 10.2 + cuDNN 7 from dockerhub, will compile OpenCV and YOLOv4.
 
 ## **Requirements**
 * Linux
